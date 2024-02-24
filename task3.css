@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.continar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  width: calc((100% - 20px) / 2);
+  padding: 20px;
+}
+.products span {
+  font-size: 30px;
+}
+.products img {
+  width: 70%;
+
+}
